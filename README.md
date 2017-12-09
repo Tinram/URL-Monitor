@@ -2,22 +2,22 @@
 # URL Monitor
 
 
-#### Provide visual URL-monitoring for webpage or dashboard display.
+#### Provide visual URL monitoring for a dashboard.
 
 
-## URLs
-
-Local URLs are assumed to be: *http://localhost/URL-Monitor/*
-
+[1]: https://tinram.github.io/images/urlmonitor.png
+![url-monitor][1]
 
 
 ## Examples
+
+Using *http://localhost/URL-Monitor/* as the file location.
 
 ### 1.
 
 *http://localhost/URL-Monitor/local.html*
 
-Monitor three local URLs generating different HTTP statuses in the time period.
+Monitor three local URLs generating different HTTP statuses in a set time period.
 
 
 ### 2.
@@ -29,7 +29,9 @@ Monitor one remote URL.
 
 ## Time Periods
 
-Polling every 2 seconds (*/js/x_loader.js* files) over a 20 second error collection time period (line 18 */js/trafficlight.js*).
+Time periods can be easily changed.
+
+The default polling is every 2 seconds (*/js/x_loader.js* files) over a 20 second error collection time period (*/js/trafficlight.js* [line 18]).
 
 
 ## License
